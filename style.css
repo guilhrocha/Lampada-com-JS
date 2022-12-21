@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(76, 77, 87);
+    text-align: center;
+}
+
+main h1 {
+    margin-top: 3%;
+    font-size: 25pt;
+}
+
+img {
+    margin-top: 20vh;
+}
+
+.botao button {
+    width: 5vw;
+    height: 3vh;
+}
+
+.botao button p{
+    text-align: center;
+}
+
+@media (max-width: 1010px) {
+    .botao button {
+        width: 10vw;
+    }
+}
+
+@media (max-width: 525px) {
+    .botao button {
+        width: 15vw;
+    }
+}
+
